@@ -2,9 +2,10 @@
   "name": "btconnect",
   "version": "1.0.0",
   "description": "simple cli tool, for bluetooth connections",
-  "main": "btconnect.mjs",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "build": "tsc"
   },
   "keywords": [
     "bluetooth",
@@ -15,5 +16,11 @@
     "connect"
   ],
   "author": "ubrmnsh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2"
+  }
 }
