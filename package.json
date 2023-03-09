@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "simple cli tool, for bluetooth connections",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-      "build": "tsc"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "keywords": [
     "bluetooth",
@@ -17,10 +17,8 @@
   ],
   "author": "ubrmnsh",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^4.9.5"
-  },
   "devDependencies": {
-    "@types/node": "^18.14.2"
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
   }
 }
